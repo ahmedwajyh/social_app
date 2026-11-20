@@ -33,7 +33,7 @@ export const APP_EMAIL: string = process.env.APP_EMAIL as string;
 export const BREVO_API_KEY: string = process.env.BREVO_API_KEY as string;
 export const PROJECT_NAME: string = process.env.PROJECT_NAME as string;
 export const UPSTASH_REDIS_REST_URL: string=process.env.UPSTASH_REDIS_REST_URL as string;
-
+export const EMAIL_PASS =process.env.EMAIL_PASS
 
 export const ALLOWED_ORIGINS: string[] = process.env.ALLOWED_ORIGINS
     ? process.env.ALLOWED_ORIGINS.split(",").map((origin) => origin.trim())
